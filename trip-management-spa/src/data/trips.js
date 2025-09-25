@@ -1,0 +1,68 @@
+export const initialTrips = [
+  {
+    id: 1,
+    destination: "Paris",
+    startDate: "2025-09-10",
+    endDate: "2025-09-20",
+    price: 1500,
+    status: "PLANNED",
+  },
+  {
+    id: 2,
+    destination: "London",
+    startDate: "2025-09-15",
+    endDate: "2025-09-25",
+    price: 1800,
+    status: "ONGOING",
+  },
+  {
+    id: 3,
+    destination: "Tokyo",
+    startDate: "2025-08-01",
+    endDate: "2025-08-15",
+    price: 2200,
+    status: "COMPLETED",
+  },
+  {
+    id: 4,
+    destination: "New York",
+    startDate: "2025-10-05",
+    endDate: "2025-10-12",
+    price: 1200,
+    status: "PLANNED",
+  },
+  {
+    id: 5,
+    destination: "Barcelona",
+    startDate: "2025-09-20",
+    endDate: "2025-09-28",
+    price: 1600,
+    status: "ONGOING",
+  },
+  {
+    id: 6,
+    destination: "Rome",
+    startDate: "2025-07-10",
+    endDate: "2025-07-20",
+    price: 1400,
+    status: "COMPLETED",
+  },
+  {
+    id: 7,
+    destination: "Dubai",
+    startDate: "2025-11-01",
+    endDate: "2025-11-08",
+    price: 1900,
+    status: "PLANNED",
+  },
+  {
+    id: 8,
+    destination: "Sydney",
+    startDate: "2025-12-15",
+    endDate: "2025-12-25",
+    price: 2500,
+    status: "PLANNED",
+  },
+]
+
+export const tripStatuses = ["PLANNED", "ONGOING", "COMPLETED"]
